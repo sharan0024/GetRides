@@ -1,0 +1,111 @@
+.get-ride-container {
+    padding: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .booking-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .whatsapp-booking, .get-ride-form {
+    width: 75%; /* Increased width for the form */
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-left: auto;  /* Add margin to center the form */
+    margin-right: auto; /* Add margin to center the form */
+  }
+  
+  .whatsapp-booking h2, .get-ride-form h2 {
+    font-size: 28px;
+    color: #4b4b4b;
+    margin-bottom: 15px;
+  }
+  
+  .whatsapp-content {
+    text-align: center;
+  }
+  
+  .whatsapp-content p {
+    font-size: 16px;
+    color: #4b4b4b;
+    margin-bottom: 15px;
+  }
+  
+  .whatsapp-button-link {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button-link:hover {
+    background-color: #128C7E; /* Darker green for hover */
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px; /* Added margin between rows */
+  }
+  
+  .form-group {
+    width: 48%; /* Increased width for form fields */
+    margin-bottom: 20px; /* Added space between rows */
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group select, .form-group .react-datepicker-wrapper {
+    width: 80%; /* Set width to 100% for full input */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .time-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px; /* Added space between time fields */
+  }
+  
+  button {
+    background-color: #25D366; /* WhatsApp Green */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: auto; /* Adjusted to auto width */
+    text-align: center;
+    margin-left: auto;  /* Centering the button */
+    margin-right: auto; /* Centering the button */
+    display: block; /* Ensure the button is displayed as block */
+  }
+  
+  button:hover {
+    background-color: #128C7E;
+  }
+  
