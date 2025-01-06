@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GetRides/static/css/main.32d66828.css",
+    "main.js": "/GetRides/static/js/main.aa7ec469.js",
+    "index.html": "/GetRides/index.html",
+    "main.32d66828.css.map": "/GetRides/static/css/main.32d66828.css.map",
+    "main.aa7ec469.js.map": "/GetRides/static/js/main.aa7ec469.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32d66828.css",
+    "static/js/main.aa7ec469.js"
+  ]
+}
